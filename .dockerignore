@@ -1,0 +1,6 @@
+*
+!src/
+!scripts/
+!configs/
+!requirements.txt
+!Dockerfile

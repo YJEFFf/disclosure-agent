@@ -1,0 +1,10 @@
+# 저장소 기준 경로. GONGSI_<키 이름 대문자> 환경변수로 변경할 수 있습니다.
+data_root: "${repo_root}/02_데이터"
+raw_dir: "${data_root}/01_공시원문"
+meta_dir: "${data_root}/02_구조화"
+derived_dir: "${data_root}/03_가공"
+manifest: "${meta_dir}/manifest.jsonl"
+universe: "${meta_dir}/universe.csv"
+event_db: "${derived_dir}/db/event.sqlite"
+vector_index: "${derived_dir}/index"
+llm_cache: "${derived_dir}/cache"
